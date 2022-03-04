@@ -1,0 +1,2780 @@
+Id: 
+1
+Execution Stack: 
+[(Ref(int) a;(v = 10;(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a))))))), int v]
+Symbol Table: 
+{}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(Ref(int) a;(v = 10;(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a)))))))]
+Symbol Table: 
+{v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(v = 10;(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a)))))), Ref(int) a]
+Symbol Table: 
+{v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(v = 10;(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a))))))]
+Symbol Table: 
+{a=referenceValue(0-> int), v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a))))), v = 10]
+Symbol Table: 
+{a=referenceValue(0-> int), v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a)))))]
+Symbol Table: 
+{a=referenceValue(0-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a)))), HeapAllocating(a->22)]
+Symbol Table: 
+{a=referenceValue(0-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a))))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+1
+Execution Stack: 
+[(print(v);print(HeapReading(a))), fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+1
+Execution Stack: 
+[(print(v);print(HeapReading(a)))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+0
+Execution Stack: 
+[(HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a)))))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+1
+Execution Stack: 
+[print(HeapReading(a)), print(v)]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+0
+Execution Stack: 
+[(v = 32;(print(v);print(HeapReading(a)))), HeapWriting(a->30)]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+1
+Execution Stack: 
+[print(HeapReading(a))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+10
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[(v = 32;(print(v);print(HeapReading(a))))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+10
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+1
+Execution Stack: 
+[]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+10
+30
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[(print(v);print(HeapReading(a))), v = 32]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+10
+30
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[(print(v);print(HeapReading(a)))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=32}
+Output List: 
+10
+30
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[print(HeapReading(a)), print(v)]
+Symbol Table: 
+{a=referenceValue(1-> int), v=32}
+Output List: 
+10
+30
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[print(HeapReading(a))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=32}
+Output List: 
+10
+30
+32
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[]
+Symbol Table: 
+{a=referenceValue(1-> int), v=32}
+Output List: 
+10
+30
+32
+30
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+1
+Execution Stack: 
+[(Ref(int) a;(v = 10;(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a))))))), int v]
+Symbol Table: 
+{}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(Ref(int) a;(v = 10;(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a)))))))]
+Symbol Table: 
+{v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(v = 10;(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a)))))), Ref(int) a]
+Symbol Table: 
+{v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(v = 10;(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a))))))]
+Symbol Table: 
+{a=referenceValue(0-> int), v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a))))), v = 10]
+Symbol Table: 
+{a=referenceValue(0-> int), v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a)))))]
+Symbol Table: 
+{a=referenceValue(0-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a)))), HeapAllocating(a->22)]
+Symbol Table: 
+{a=referenceValue(0-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a))))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+1
+Execution Stack: 
+[(print(v);print(HeapReading(a))), fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+1
+Execution Stack: 
+[(print(v);print(HeapReading(a)))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+0
+Execution Stack: 
+[(HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a)))))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+1
+Execution Stack: 
+[print(HeapReading(a)), print(v)]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+0
+Execution Stack: 
+[(v = 32;(print(v);print(HeapReading(a)))), HeapWriting(a->30)]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+1
+Execution Stack: 
+[print(HeapReading(a))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+10
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[(v = 32;(print(v);print(HeapReading(a))))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+10
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+1
+Execution Stack: 
+[]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+10
+30
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[(print(v);print(HeapReading(a))), v = 32]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+10
+30
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[(print(v);print(HeapReading(a)))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=32}
+Output List: 
+10
+30
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[print(HeapReading(a)), print(v)]
+Symbol Table: 
+{a=referenceValue(1-> int), v=32}
+Output List: 
+10
+30
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[print(HeapReading(a))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=32}
+Output List: 
+10
+30
+32
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[]
+Symbol Table: 
+{a=referenceValue(1-> int), v=32}
+Output List: 
+10
+30
+32
+30
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+1
+Execution Stack: 
+[(Ref(int) a;(v = 10;(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a))))))), int v]
+Symbol Table: 
+{}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(Ref(int) a;(v = 10;(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a)))))))]
+Symbol Table: 
+{v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(v = 10;(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a)))))), Ref(int) a]
+Symbol Table: 
+{v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(v = 10;(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a))))))]
+Symbol Table: 
+{a=referenceValue(0-> int), v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a))))), v = 10]
+Symbol Table: 
+{a=referenceValue(0-> int), v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a)))))]
+Symbol Table: 
+{a=referenceValue(0-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a)))), HeapAllocating(a->22)]
+Symbol Table: 
+{a=referenceValue(0-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a))))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+1
+Execution Stack: 
+[(print(v);print(HeapReading(a))), fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+1
+Execution Stack: 
+[(print(v);print(HeapReading(a)))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+0
+Execution Stack: 
+[(HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a)))))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+1
+Execution Stack: 
+[print(HeapReading(a)), print(v)]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+0
+Execution Stack: 
+[(v = 32;(print(v);print(HeapReading(a)))), HeapWriting(a->30)]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+1
+Execution Stack: 
+[print(HeapReading(a))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+10
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[(v = 32;(print(v);print(HeapReading(a))))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+10
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+1
+Execution Stack: 
+[]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+10
+30
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[(print(v);print(HeapReading(a))), v = 32]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+10
+30
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[(print(v);print(HeapReading(a)))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=32}
+Output List: 
+10
+30
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[print(HeapReading(a)), print(v)]
+Symbol Table: 
+{a=referenceValue(1-> int), v=32}
+Output List: 
+10
+30
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[print(HeapReading(a))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=32}
+Output List: 
+10
+30
+32
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[]
+Symbol Table: 
+{a=referenceValue(1-> int), v=32}
+Output List: 
+10
+30
+32
+30
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+1
+Execution Stack: 
+[(Ref(int) a;(v = 10;(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a))))))), int v]
+Symbol Table: 
+{}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(Ref(int) a;(v = 10;(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a)))))))]
+Symbol Table: 
+{v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(v = 10;(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a)))))), Ref(int) a]
+Symbol Table: 
+{v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(v = 10;(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a))))))]
+Symbol Table: 
+{a=referenceValue(0-> int), v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a))))), v = 10]
+Symbol Table: 
+{a=referenceValue(0-> int), v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a)))))]
+Symbol Table: 
+{a=referenceValue(0-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a)))), HeapAllocating(a->22)]
+Symbol Table: 
+{a=referenceValue(0-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a))))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+1
+Execution Stack: 
+[(print(v);print(HeapReading(a))), fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+1
+Execution Stack: 
+[(print(v);print(HeapReading(a)))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+0
+Execution Stack: 
+[(HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a)))))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+1
+Execution Stack: 
+[print(HeapReading(a)), print(v)]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+0
+Execution Stack: 
+[(v = 32;(print(v);print(HeapReading(a)))), HeapWriting(a->30)]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+1
+Execution Stack: 
+[print(HeapReading(a))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+10
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[(v = 32;(print(v);print(HeapReading(a))))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+10
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+1
+Execution Stack: 
+[]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+10
+30
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[(print(v);print(HeapReading(a))), v = 32]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+10
+30
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[(print(v);print(HeapReading(a)))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=32}
+Output List: 
+10
+30
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[print(HeapReading(a)), print(v)]
+Symbol Table: 
+{a=referenceValue(1-> int), v=32}
+Output List: 
+10
+30
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[print(HeapReading(a))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=32}
+Output List: 
+10
+30
+32
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[]
+Symbol Table: 
+{a=referenceValue(1-> int), v=32}
+Output List: 
+10
+30
+32
+30
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+1
+Execution Stack: 
+[(Ref(int) a;(v = 10;(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a))))))), int v]
+Symbol Table: 
+{}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(Ref(int) a;(v = 10;(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a)))))))]
+Symbol Table: 
+{v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(v = 10;(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a)))))), Ref(int) a]
+Symbol Table: 
+{v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(v = 10;(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a))))))]
+Symbol Table: 
+{a=referenceValue(0-> int), v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a))))), v = 10]
+Symbol Table: 
+{a=referenceValue(0-> int), v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a)))))]
+Symbol Table: 
+{a=referenceValue(0-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a)))), HeapAllocating(a->22)]
+Symbol Table: 
+{a=referenceValue(0-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a))))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+1
+Execution Stack: 
+[(print(v);print(HeapReading(a))), fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+1
+Execution Stack: 
+[(print(v);print(HeapReading(a)))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+0
+Execution Stack: 
+[(HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a)))))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+1
+Execution Stack: 
+[print(HeapReading(a)), print(v)]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+0
+Execution Stack: 
+[(v = 32;(print(v);print(HeapReading(a)))), HeapWriting(a->30)]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+1
+Execution Stack: 
+[print(HeapReading(a))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+10
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[(v = 32;(print(v);print(HeapReading(a))))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+10
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+1
+Execution Stack: 
+[]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+10
+30
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[(print(v);print(HeapReading(a))), v = 32]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+10
+30
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[(print(v);print(HeapReading(a)))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=32}
+Output List: 
+10
+30
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[print(HeapReading(a)), print(v)]
+Symbol Table: 
+{a=referenceValue(1-> int), v=32}
+Output List: 
+10
+30
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[print(HeapReading(a))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=32}
+Output List: 
+10
+30
+32
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[]
+Symbol Table: 
+{a=referenceValue(1-> int), v=32}
+Output List: 
+10
+30
+32
+30
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+1
+Execution Stack: 
+[(Ref(int) a;(v = 10;(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a))))))), int v]
+Symbol Table: 
+{}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(Ref(int) a;(v = 10;(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a)))))))]
+Symbol Table: 
+{v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(v = 10;(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a)))))), Ref(int) a]
+Symbol Table: 
+{v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(v = 10;(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a))))))]
+Symbol Table: 
+{a=referenceValue(0-> int), v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a))))), v = 10]
+Symbol Table: 
+{a=referenceValue(0-> int), v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a)))))]
+Symbol Table: 
+{a=referenceValue(0-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a)))), HeapAllocating(a->22)]
+Symbol Table: 
+{a=referenceValue(0-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a))))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+1
+Execution Stack: 
+[(print(v);print(HeapReading(a))), fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+1
+Execution Stack: 
+[(print(v);print(HeapReading(a)))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+0
+Execution Stack: 
+[(HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a)))))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+1
+Execution Stack: 
+[print(HeapReading(a)), print(v)]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+0
+Execution Stack: 
+[(v = 32;(print(v);print(HeapReading(a)))), HeapWriting(a->30)]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+1
+Execution Stack: 
+[print(HeapReading(a))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+10
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[(v = 32;(print(v);print(HeapReading(a))))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+10
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+1
+Execution Stack: 
+[]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+10
+30
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[(print(v);print(HeapReading(a))), v = 32]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+10
+30
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[(print(v);print(HeapReading(a)))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=32}
+Output List: 
+10
+30
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[print(HeapReading(a)), print(v)]
+Symbol Table: 
+{a=referenceValue(1-> int), v=32}
+Output List: 
+10
+30
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[print(HeapReading(a))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=32}
+Output List: 
+10
+30
+32
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[]
+Symbol Table: 
+{a=referenceValue(1-> int), v=32}
+Output List: 
+10
+30
+32
+30
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+1
+Execution Stack: 
+[(Ref(int) a;(v = 10;(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a))))))), int v]
+Symbol Table: 
+{}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(Ref(int) a;(v = 10;(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a)))))))]
+Symbol Table: 
+{v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(v = 10;(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a)))))), Ref(int) a]
+Symbol Table: 
+{v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(v = 10;(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a))))))]
+Symbol Table: 
+{a=referenceValue(0-> int), v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a))))), v = 10]
+Symbol Table: 
+{a=referenceValue(0-> int), v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a)))))]
+Symbol Table: 
+{a=referenceValue(0-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a)))), HeapAllocating(a->22)]
+Symbol Table: 
+{a=referenceValue(0-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a))))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+1
+Execution Stack: 
+[(print(v);print(HeapReading(a))), fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+1
+Execution Stack: 
+[(print(v);print(HeapReading(a)))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+0
+Execution Stack: 
+[(HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a)))))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+1
+Execution Stack: 
+[print(HeapReading(a)), print(v)]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+0
+Execution Stack: 
+[(v = 32;(print(v);print(HeapReading(a)))), HeapWriting(a->30)]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+1
+Execution Stack: 
+[print(HeapReading(a))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+10
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[(v = 32;(print(v);print(HeapReading(a))))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+10
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+1
+Execution Stack: 
+[]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+10
+30
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[(print(v);print(HeapReading(a))), v = 32]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+10
+30
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[(print(v);print(HeapReading(a)))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=32}
+Output List: 
+10
+30
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[print(HeapReading(a)), print(v)]
+Symbol Table: 
+{a=referenceValue(1-> int), v=32}
+Output List: 
+10
+30
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[print(HeapReading(a))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=32}
+Output List: 
+10
+30
+32
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[]
+Symbol Table: 
+{a=referenceValue(1-> int), v=32}
+Output List: 
+10
+30
+32
+30
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+1
+Execution Stack: 
+[(Ref(int) a;(v = 10;(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a))))))), int v]
+Symbol Table: 
+{}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(Ref(int) a;(v = 10;(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a)))))))]
+Symbol Table: 
+{v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(v = 10;(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a)))))), Ref(int) a]
+Symbol Table: 
+{v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(v = 10;(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a))))))]
+Symbol Table: 
+{a=referenceValue(0-> int), v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a))))), v = 10]
+Symbol Table: 
+{a=referenceValue(0-> int), v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a)))))]
+Symbol Table: 
+{a=referenceValue(0-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a)))), HeapAllocating(a->22)]
+Symbol Table: 
+{a=referenceValue(0-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a))))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+1
+Execution Stack: 
+[(print(v);print(HeapReading(a))), fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+1
+Execution Stack: 
+[(print(v);print(HeapReading(a)))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+0
+Execution Stack: 
+[(HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a)))))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+1
+Execution Stack: 
+[print(HeapReading(a)), print(v)]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+0
+Execution Stack: 
+[(v = 32;(print(v);print(HeapReading(a)))), HeapWriting(a->30)]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+1
+Execution Stack: 
+[print(HeapReading(a))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+10
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[(v = 32;(print(v);print(HeapReading(a))))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+10
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+1
+Execution Stack: 
+[]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+10
+30
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[(print(v);print(HeapReading(a))), v = 32]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+10
+30
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[(print(v);print(HeapReading(a)))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=32}
+Output List: 
+10
+30
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[print(HeapReading(a)), print(v)]
+Symbol Table: 
+{a=referenceValue(1-> int), v=32}
+Output List: 
+10
+30
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[print(HeapReading(a))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=32}
+Output List: 
+10
+30
+32
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[]
+Symbol Table: 
+{a=referenceValue(1-> int), v=32}
+Output List: 
+10
+30
+32
+30
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+1
+Execution Stack: 
+[(Ref(int) a;(v = 10;(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a))))))), int v]
+Symbol Table: 
+{}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(Ref(int) a;(v = 10;(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a)))))))]
+Symbol Table: 
+{v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(v = 10;(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a)))))), Ref(int) a]
+Symbol Table: 
+{v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(v = 10;(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a))))))]
+Symbol Table: 
+{a=referenceValue(0-> int), v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a))))), v = 10]
+Symbol Table: 
+{a=referenceValue(0-> int), v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(HeapAllocating(a->22);(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a)))))]
+Symbol Table: 
+{a=referenceValue(0-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a)))), HeapAllocating(a->22)]
+Symbol Table: 
+{a=referenceValue(0-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))));(print(v);print(HeapReading(a))))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+1
+Execution Stack: 
+[(print(v);print(HeapReading(a))), fork((HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a))))))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+1
+Execution Stack: 
+[(print(v);print(HeapReading(a)))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+0
+Execution Stack: 
+[(HeapWriting(a->30);(v = 32;(print(v);print(HeapReading(a)))))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+1
+Execution Stack: 
+[print(HeapReading(a)), print(v)]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+0
+Execution Stack: 
+[(v = 32;(print(v);print(HeapReading(a)))), HeapWriting(a->30)]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=22}
+
+Id: 
+1
+Execution Stack: 
+[print(HeapReading(a))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+10
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[(v = 32;(print(v);print(HeapReading(a))))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+10
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+1
+Execution Stack: 
+[]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+10
+30
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[(print(v);print(HeapReading(a))), v = 32]
+Symbol Table: 
+{a=referenceValue(1-> int), v=10}
+Output List: 
+10
+30
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[(print(v);print(HeapReading(a)))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=32}
+Output List: 
+10
+30
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[print(HeapReading(a)), print(v)]
+Symbol Table: 
+{a=referenceValue(1-> int), v=32}
+Output List: 
+10
+30
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[print(HeapReading(a))]
+Symbol Table: 
+{a=referenceValue(1-> int), v=32}
+Output List: 
+10
+30
+32
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+0
+Execution Stack: 
+[]
+Symbol Table: 
+{a=referenceValue(1-> int), v=32}
+Output List: 
+10
+30
+32
+30
+
+File Table: 
+{}
+Heap: 
+{1=30}
+
+Id: 
+1
+Execution Stack: 
+[(HeapAllocating(v->20);(Ref(Ref(int)) a;(HeapAllocating(a->v);(HeapAllocating(v->30);(HeapAllocating(v->40);print(HeapReading(HeapReading(a)))))))), Ref(int) v]
+Symbol Table: 
+{}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(HeapAllocating(v->20);(Ref(Ref(int)) a;(HeapAllocating(a->v);(HeapAllocating(v->30);(HeapAllocating(v->40);print(HeapReading(HeapReading(a))))))))]
+Symbol Table: 
+{v=referenceValue(0-> int)}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(Ref(Ref(int)) a;(HeapAllocating(a->v);(HeapAllocating(v->30);(HeapAllocating(v->40);print(HeapReading(HeapReading(a))))))), HeapAllocating(v->20)]
+Symbol Table: 
+{v=referenceValue(0-> int)}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(Ref(Ref(int)) a;(HeapAllocating(a->v);(HeapAllocating(v->30);(HeapAllocating(v->40);print(HeapReading(HeapReading(a)))))))]
+Symbol Table: 
+{v=referenceValue(1-> int)}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=20}
+
+Id: 
+1
+Execution Stack: 
+[(HeapAllocating(a->v);(HeapAllocating(v->30);(HeapAllocating(v->40);print(HeapReading(HeapReading(a)))))), Ref(Ref(int)) a]
+Symbol Table: 
+{v=referenceValue(1-> int)}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=20}
+
+Id: 
+1
+Execution Stack: 
+[(HeapAllocating(a->v);(HeapAllocating(v->30);(HeapAllocating(v->40);print(HeapReading(HeapReading(a))))))]
+Symbol Table: 
+{a=referenceValue(0-> Ref(int)), v=referenceValue(1-> int)}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=20}
+
+Id: 
+1
+Execution Stack: 
+[(HeapAllocating(v->30);(HeapAllocating(v->40);print(HeapReading(HeapReading(a))))), HeapAllocating(a->v)]
+Symbol Table: 
+{a=referenceValue(0-> Ref(int)), v=referenceValue(1-> int)}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=20}
+
+Id: 
+1
+Execution Stack: 
+[(HeapAllocating(v->30);(HeapAllocating(v->40);print(HeapReading(HeapReading(a)))))]
+Symbol Table: 
+{a=referenceValue(2-> Ref(int)), v=referenceValue(1-> int)}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=20, 2=referenceValue(1-> int)}
+
+Id: 
+1
+Execution Stack: 
+[(HeapAllocating(v->40);print(HeapReading(HeapReading(a)))), HeapAllocating(v->30)]
+Symbol Table: 
+{a=referenceValue(2-> Ref(int)), v=referenceValue(1-> int)}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=20, 2=referenceValue(1-> int)}
+
+Id: 
+1
+Execution Stack: 
+[(HeapAllocating(v->40);print(HeapReading(HeapReading(a))))]
+Symbol Table: 
+{a=referenceValue(2-> Ref(int)), v=referenceValue(3-> int)}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=20, 2=referenceValue(1-> int), 3=30}
+
+Id: 
+1
+Execution Stack: 
+[print(HeapReading(HeapReading(a))), HeapAllocating(v->40)]
+Symbol Table: 
+{a=referenceValue(2-> Ref(int)), v=referenceValue(3-> int)}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=20, 2=referenceValue(1-> int), 3=30}
+
+Id: 
+1
+Execution Stack: 
+[print(HeapReading(HeapReading(a)))]
+Symbol Table: 
+{a=referenceValue(2-> Ref(int)), v=referenceValue(4-> int)}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=20, 2=referenceValue(1-> int), 3=30, 4=40}
+
+Id: 
+1
+Execution Stack: 
+[]
+Symbol Table: 
+{a=referenceValue(2-> Ref(int)), v=referenceValue(4-> int)}
+Output List: 
+20
+
+File Table: 
+{}
+Heap: 
+{1=20, 2=referenceValue(1-> int), 3=30, 4=40}
+

@@ -1,0 +1,305 @@
+Id: 
+1
+Execution Stack: 
+[((HeapAllocating(a->0);HeapAllocating(b->0));((HeapWriting(a->1);HeapWriting(b->2));((v = HeapReading(a) < HeapReading(b)?100:200;print(v));(v = HeapReading(b) - 2 > HeapReading(a)?100:200;print(v))))), (Ref(int) a;(Ref(int) b;int v))]
+Symbol Table: 
+{}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[((HeapAllocating(a->0);HeapAllocating(b->0));((HeapWriting(a->1);HeapWriting(b->2));((v = HeapReading(a) < HeapReading(b)?100:200;print(v));(v = HeapReading(b) - 2 > HeapReading(a)?100:200;print(v))))), (Ref(int) b;int v), Ref(int) a]
+Symbol Table: 
+{}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[((HeapAllocating(a->0);HeapAllocating(b->0));((HeapWriting(a->1);HeapWriting(b->2));((v = HeapReading(a) < HeapReading(b)?100:200;print(v));(v = HeapReading(b) - 2 > HeapReading(a)?100:200;print(v))))), (Ref(int) b;int v)]
+Symbol Table: 
+{a=referenceValue(0-> int)}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[((HeapAllocating(a->0);HeapAllocating(b->0));((HeapWriting(a->1);HeapWriting(b->2));((v = HeapReading(a) < HeapReading(b)?100:200;print(v));(v = HeapReading(b) - 2 > HeapReading(a)?100:200;print(v))))), int v, Ref(int) b]
+Symbol Table: 
+{a=referenceValue(0-> int)}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[((HeapAllocating(a->0);HeapAllocating(b->0));((HeapWriting(a->1);HeapWriting(b->2));((v = HeapReading(a) < HeapReading(b)?100:200;print(v));(v = HeapReading(b) - 2 > HeapReading(a)?100:200;print(v))))), int v]
+Symbol Table: 
+{a=referenceValue(0-> int), b=referenceValue(0-> int)}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[((HeapAllocating(a->0);HeapAllocating(b->0));((HeapWriting(a->1);HeapWriting(b->2));((v = HeapReading(a) < HeapReading(b)?100:200;print(v));(v = HeapReading(b) - 2 > HeapReading(a)?100:200;print(v)))))]
+Symbol Table: 
+{a=referenceValue(0-> int), b=referenceValue(0-> int), v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[((HeapWriting(a->1);HeapWriting(b->2));((v = HeapReading(a) < HeapReading(b)?100:200;print(v));(v = HeapReading(b) - 2 > HeapReading(a)?100:200;print(v)))), (HeapAllocating(a->0);HeapAllocating(b->0))]
+Symbol Table: 
+{a=referenceValue(0-> int), b=referenceValue(0-> int), v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[((HeapWriting(a->1);HeapWriting(b->2));((v = HeapReading(a) < HeapReading(b)?100:200;print(v));(v = HeapReading(b) - 2 > HeapReading(a)?100:200;print(v)))), HeapAllocating(b->0), HeapAllocating(a->0)]
+Symbol Table: 
+{a=referenceValue(0-> int), b=referenceValue(0-> int), v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[((HeapWriting(a->1);HeapWriting(b->2));((v = HeapReading(a) < HeapReading(b)?100:200;print(v));(v = HeapReading(b) - 2 > HeapReading(a)?100:200;print(v)))), HeapAllocating(b->0)]
+Symbol Table: 
+{a=referenceValue(1-> int), b=referenceValue(0-> int), v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=0}
+
+Id: 
+1
+Execution Stack: 
+[((HeapWriting(a->1);HeapWriting(b->2));((v = HeapReading(a) < HeapReading(b)?100:200;print(v));(v = HeapReading(b) - 2 > HeapReading(a)?100:200;print(v))))]
+Symbol Table: 
+{a=referenceValue(1-> int), b=referenceValue(2-> int), v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=0, 2=0}
+
+Id: 
+1
+Execution Stack: 
+[((v = HeapReading(a) < HeapReading(b)?100:200;print(v));(v = HeapReading(b) - 2 > HeapReading(a)?100:200;print(v))), (HeapWriting(a->1);HeapWriting(b->2))]
+Symbol Table: 
+{a=referenceValue(1-> int), b=referenceValue(2-> int), v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=0, 2=0}
+
+Id: 
+1
+Execution Stack: 
+[((v = HeapReading(a) < HeapReading(b)?100:200;print(v));(v = HeapReading(b) - 2 > HeapReading(a)?100:200;print(v))), HeapWriting(b->2), HeapWriting(a->1)]
+Symbol Table: 
+{a=referenceValue(1-> int), b=referenceValue(2-> int), v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=0, 2=0}
+
+Id: 
+1
+Execution Stack: 
+[((v = HeapReading(a) < HeapReading(b)?100:200;print(v));(v = HeapReading(b) - 2 > HeapReading(a)?100:200;print(v))), HeapWriting(b->2)]
+Symbol Table: 
+{a=referenceValue(1-> int), b=referenceValue(2-> int), v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=1, 2=0}
+
+Id: 
+1
+Execution Stack: 
+[((v = HeapReading(a) < HeapReading(b)?100:200;print(v));(v = HeapReading(b) - 2 > HeapReading(a)?100:200;print(v)))]
+Symbol Table: 
+{a=referenceValue(1-> int), b=referenceValue(2-> int), v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=1, 2=2}
+
+Id: 
+1
+Execution Stack: 
+[(v = HeapReading(b) - 2 > HeapReading(a)?100:200;print(v)), (v = HeapReading(a) < HeapReading(b)?100:200;print(v))]
+Symbol Table: 
+{a=referenceValue(1-> int), b=referenceValue(2-> int), v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=1, 2=2}
+
+Id: 
+1
+Execution Stack: 
+[(v = HeapReading(b) - 2 > HeapReading(a)?100:200;print(v)), print(v), v = HeapReading(a) < HeapReading(b)?100:200]
+Symbol Table: 
+{a=referenceValue(1-> int), b=referenceValue(2-> int), v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=1, 2=2}
+
+Id: 
+1
+Execution Stack: 
+[(v = HeapReading(b) - 2 > HeapReading(a)?100:200;print(v)), print(v), (IF(HeapReading(a) < HeapReading(b))THEN(v = 100)ELSE(v = 200))]
+Symbol Table: 
+{a=referenceValue(1-> int), b=referenceValue(2-> int), v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=1, 2=2}
+
+Id: 
+1
+Execution Stack: 
+[(v = HeapReading(b) - 2 > HeapReading(a)?100:200;print(v)), print(v)]
+Symbol Table: 
+{a=referenceValue(1-> int), b=referenceValue(2-> int), v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{1=1, 2=2}
+
+Id: 
+1
+Execution Stack: 
+[(v = HeapReading(b) - 2 > HeapReading(a)?100:200;print(v))]
+Symbol Table: 
+{a=referenceValue(1-> int), b=referenceValue(2-> int), v=0}
+Output List: 
+0
+
+File Table: 
+{}
+Heap: 
+{1=1, 2=2}
+
+Id: 
+1
+Execution Stack: 
+[print(v), v = HeapReading(b) - 2 > HeapReading(a)?100:200]
+Symbol Table: 
+{a=referenceValue(1-> int), b=referenceValue(2-> int), v=0}
+Output List: 
+0
+
+File Table: 
+{}
+Heap: 
+{1=1, 2=2}
+
+Id: 
+1
+Execution Stack: 
+[print(v), (IF(HeapReading(b) - 2 > HeapReading(a))THEN(v = 100)ELSE(v = 200))]
+Symbol Table: 
+{a=referenceValue(1-> int), b=referenceValue(2-> int), v=0}
+Output List: 
+0
+
+File Table: 
+{}
+Heap: 
+{1=1, 2=2}
+
+Id: 
+1
+Execution Stack: 
+[print(v)]
+Symbol Table: 
+{a=referenceValue(1-> int), b=referenceValue(2-> int), v=0}
+Output List: 
+0
+
+File Table: 
+{}
+Heap: 
+{1=1, 2=2}
+
+Id: 
+1
+Execution Stack: 
+[]
+Symbol Table: 
+{a=referenceValue(1-> int), b=referenceValue(2-> int), v=0}
+Output List: 
+0
+0
+
+File Table: 
+{}
+Heap: 
+{1=1, 2=2}
+

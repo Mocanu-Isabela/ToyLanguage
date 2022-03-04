@@ -1,0 +1,382 @@
+Id: 
+1
+Execution Stack: 
+[(int v;(v = 2;print(v)))]
+Symbol Table: 
+{}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(v = 2;print(v)), int v]
+Symbol Table: 
+{}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(v = 2;print(v))]
+Symbol Table: 
+{v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[print(v), v = 2]
+Symbol Table: 
+{v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[print(v)]
+Symbol Table: 
+{v=2}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[]
+Symbol Table: 
+{v=2}
+Output List: 
+2
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(v = 2;print(v)), int v]
+Symbol Table: 
+{}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(v = 2;print(v))]
+Symbol Table: 
+{v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[print(v), v = 2]
+Symbol Table: 
+{v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[print(v)]
+Symbol Table: 
+{v=2}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[]
+Symbol Table: 
+{v=2}
+Output List: 
+2
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(v = 2;print(v)), int v]
+Symbol Table: 
+{}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(v = 2;print(v))]
+Symbol Table: 
+{v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[print(v), v = 2]
+Symbol Table: 
+{v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(v = 2;print(v)), int v]
+Symbol Table: 
+{}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(v = 2;print(v))]
+Symbol Table: 
+{v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[print(v), v = 2]
+Symbol Table: 
+{v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[print(v)]
+Symbol Table: 
+{v=2}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[]
+Symbol Table: 
+{v=2}
+Output List: 
+2
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(v = 2;print(v)), int v]
+Symbol Table: 
+{}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(v = 2;print(v))]
+Symbol Table: 
+{v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[print(v), v = 2]
+Symbol Table: 
+{v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[print(v)]
+Symbol Table: 
+{v=2}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[]
+Symbol Table: 
+{v=2}
+Output List: 
+2
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(v = 2;print(v)), int v]
+Symbol Table: 
+{}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[(v = 2;print(v))]
+Symbol Table: 
+{v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[print(v), v = 2]
+Symbol Table: 
+{v=0}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[print(v)]
+Symbol Table: 
+{v=2}
+Output List: 
+
+File Table: 
+{}
+Heap: 
+{}
+
+Id: 
+1
+Execution Stack: 
+[]
+Symbol Table: 
+{v=2}
+Output List: 
+2
+
+File Table: 
+{}
+Heap: 
+{}
+
